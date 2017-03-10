@@ -1,0 +1,25 @@
+{
+  "name": "mock-router-service",
+  "version": "0.0.1",
+  "description": "Mock to test Router Services",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev node-dev server.js",
+    "live": "NODE_ENV=live node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcfumes/mock-service"
+  },
+  "keywords": [
+    "dafiti",
+    "router"
+  ],
+  "author": "Luiz Fumes <lcfumes@gmai.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/lcfumes/mock-service#readme",
+  "dependencies": {
+    "hapi": "^16.1.0"
+  }
+}
