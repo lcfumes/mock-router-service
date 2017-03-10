@@ -1,6 +1,6 @@
 {
   "name": "mock-router-service",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mock to test Router Services",
   "main": "server.js",
   "scripts": {
