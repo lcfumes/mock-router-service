@@ -11,7 +11,7 @@ docker-compose.yml:
 
 ```
 mock-router-service:
-    build: "./docker/node_modules/mock-router-service/"
+    build: "./node_modules/docker/mock-router-service/"
     ports:
         - 3030:3030
     volumes:
