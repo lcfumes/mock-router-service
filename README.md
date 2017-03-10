@@ -9,9 +9,17 @@ Using Mock Service with Docker.
 
 docker-compose.yml:
 
+In your container
+
+```
+tty: true
+links:
+    - mock-router-service:mock.service.dev
+```
+
 ```
 mock-router-service:
-    build: "./node_modules/docker/mock-router-service/"
+    build: "./node_modules/mock-router-service/docker/"
     ports:
         - 3030:3030
     volumes:
