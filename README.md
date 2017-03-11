@@ -2,7 +2,13 @@
 
 Instal
 ```
-npm install --save-dev lcfumes/mock-router-service
+npm install --save-dev mock-router-service
+```
+
+Install package dependencies
+```
+cd node_modules/mock-router-service
+npm install
 ```
 
 Using Mock Service with Docker.
