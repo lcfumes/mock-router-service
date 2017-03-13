@@ -10,6 +10,4 @@ ADD . /app
 
 RUN mv /tmp/node_modules /app/
 
-EXPOSE 3000
-
 CMD ["node-dev", "server.js"]
