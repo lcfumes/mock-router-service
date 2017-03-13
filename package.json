@@ -1,6 +1,6 @@
 {
   "name": "mock-router-service",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Mock to test Router Services",
   "main": "server.js",
   "scripts": {
@@ -12,10 +12,12 @@
     "mock",
     "proxy",
     "url",
+    "router",
     "manager"
   ],
   "tags": [
     "mock",
+    "router",
     "service"
   ],
   "author": {
@@ -27,10 +29,6 @@
     "type": "git",
     "url": "git+https://github.com/lcfumes/mock-router-service"
   },
-  "keywords": [
-    "dafiti",
-    "router"
-  ],
   "license": "ISC",
   "homepage": "https://github.com/lcfumes/mock-router-service#readme",
   "dependencies": {
