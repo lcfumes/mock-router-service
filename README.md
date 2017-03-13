@@ -5,12 +5,6 @@ Instal
 npm install --save-dev mock-router-service
 ```
 
-Install package dependencies
-```
-cd node_modules/mock-router-service
-npm install
-```
-
 Using Mock Service with Docker.
 
 docker-compose.yml:
@@ -25,11 +19,9 @@ links:
 
 ```
 mock-router-service:
-    build: "./node_modules/mock-router-service/docker/"
+    build: "./node_modules/mock-router-service/"
     ports:
         - 3030:3030
-    volumes:
-        - ./node_modules/mock-router-service:/app
     environment:
         - VIRTUAL_HOST=mock.service.dev
     tty: true
