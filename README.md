@@ -1,6 +1,6 @@
 ## Mock Router Service ##
 
-Instal
+Install
 ```
 npm install --save-dev mock-router-service
 ```
